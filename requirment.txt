@@ -1,0 +1,13 @@
+python=3.7.11
+numpy==1.21.2
+cudatoolkit==10.1.243 
+pytorch==1.7.1
+torchvision==0.6.0
+
+tensorboard==2.6.0
+matplotlib==3.4.3
+Pillow==8.4.0
+opencv-python==4.5.4.58
+urllib3==1.26.7
+kornia==0.5.11
+cupy-cuda101=9.6.0
