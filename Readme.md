@@ -8,7 +8,7 @@ This is an official implementation of the CVPR 2022 Paper **[FIBA: Frequency-Inj
 
 ## News
 
-29/4/2022 - Our code of ISIC2019 has been relesed.
+5/5/2022 - Our code of ISIC2019 has been relesed.
 
 ## Requirements
 
