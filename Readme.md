@@ -21,25 +21,26 @@ This is an official implementation of the CVPR 2022 Paper **[FIBA: Frequency-Inj
 
 ## Training
 
-Modify the contents of `./utils/dataloader.py` depending on the way you save the dataset.
+1. Modify the contents of `./utils/dataloader.py` depending on the way you save the dataset.
+2. Create `./checkpoints` to save the model.
+3. Start traning:
+    > python train.py  --target_label 3 –pc 0.1 --alpha 0.15 –beta 0.1  --target_img './coco_val75/000000002157.jpg' --cross_dir './coco_test1000' --split_idx 0 --experiment_idx 'demo' 
 
-> python train.py  --target_label 3 –pc 0.1 --alpha 0.15 –beta 0.1  --target_img './coco_val75/000000002157.jpg' --cross_dir './coco_test1000' --split_idx 0 --experiment_idx 'demo' 
+    * target_label: The label of target class
 
-* target_label: The label of target class
+    * pc: The ratio of poisoned images
 
-* pc: The ratio of poisoned images
+    * alpha: The blend ratio $\alpha$ 
 
-* alpha: The blend ratio $\alpha$ 
+    * beta: $\beta$​ which determines the location and range of the low-frequency patch inside the amplitude spectrum to be blended
 
-* beta: $\beta$​ which determines the location and range of the low-frequency patch inside the amplitude spectrum to be blended
+    * target_img: The path of trigger image
 
-* target_img: The path of trigger image
+    * cross_dir: The path of the folder which saves noise images
 
-* cross_dir: The path of the folder which saves noise images
+    * split_idx: Used for multi-fold cross validation experiment
 
-* split_idx: Used for multi-fold cross validation experiment
-
-* experiment_idx: The name of the experiment
+    * experiment_idx: The name of the experiment
 
   The model will be save at `checkpoints/ISIC2019/all2onedemo/best_acc_bd_ckpt.pth.tar`
 
