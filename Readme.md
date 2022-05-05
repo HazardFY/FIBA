@@ -16,7 +16,8 @@ This is an official implementation of the CVPR 2022 Paper **[FIBA: Frequency-Inj
 
   >$ pip install -r requirements.txt
 
-* Download the ISIC2019 dataset and prepare the TXT files  for dataset partitioning (shown in `.\txt`)
+* Download the **[ISIC2019 dataset](https://challenge.isic-archive.com/data/)** and prepare the TXT files  for dataset partitioning (shown in `.\txt`)
+* Download the **[trigger image](https://drive.google.com/file/d/1-0j1b_WhCoclkCfk0yICJQ4o06QG5q6r/view?usp=sharing) **and **[the noise images](https://drive.google.com/file/d/1--Uelbs-GrYUCa3YTgjSK6aywdZb2fRx/view?usp=sharing)**
 
 ## Training
 
