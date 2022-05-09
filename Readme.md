@@ -63,4 +63,4 @@ If you find this repo useful for your research, please consider citing our paper
 
 ### Acknowledgement
 
-Some of the code is adapted from **[WaNet](https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release)** and **[FedDG](https://github.com/liuquande/FedDG-ELCFS)**, which have been cited in our paper.
+Some of the code is adapted from **[WaNet](https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release)** and **[FedDG](https://github.com/liuquande/FedDG-ELCFS)** which have been cited in our paper.
