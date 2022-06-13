@@ -53,16 +53,16 @@ This is an official implementation of the CVPR 2022 Paper **[FIBA: Frequency-Inj
 ## Citation
 
 If you find this repo useful for your research, please consider citing our paper
-
+```
 @InProceedings{Feng_2022_CVPR,
-    author    = {Feng, Yu and Ma, Benteng and Zhang, Jing and Zhao, Shanshan and Xia, Yong and Tao, Dacheng},
-    title     = {FIBA: Frequency-Injection Based Backdoor Attack in Medical Image Analysis},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
+    author    = {Feng, Yu and Ma, Benteng and Zhang, Jing and Zhao, Shanshan and Xia, Yong and Tao, Dacheng},  
+    title     = {FIBA: Frequency-Injection Based Backdoor Attack in Medical Image Analysis},   
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+    month     = {June},  
     year      = {2022},
-    pages     = {20876-20885}
+    pages     = {20876-20885}  
 }
-
+```
 ### Acknowledgement
 
 Some of the code is adapted from **[WaNet](https://github.com/VinAIResearch/Warping-based_Backdoor_Attack-release)** and **[FedDG](https://github.com/liuquande/FedDG-ELCFS)** which have been cited in our paper.
