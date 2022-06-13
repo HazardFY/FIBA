@@ -54,12 +54,14 @@ This is an official implementation of the CVPR 2022 Paper **[FIBA: Frequency-Inj
 
 If you find this repo useful for your research, please consider citing our paper
 
->@article{feng2021fiba,
->title={FIBA: Frequency-Injection based Backdoor Attack in Medical Image Analysis},
->author={Feng, Yu and Ma, Benteng and Zhang, Jing and Zhao, Shanshan and Xia, Yong and Tao, Dacheng},
->journal={arXiv preprint arXiv:2112.01148},
->year={2021}
->}
+@InProceedings{Feng_2022_CVPR,
+    author    = {Feng, Yu and Ma, Benteng and Zhang, Jing and Zhao, Shanshan and Xia, Yong and Tao, Dacheng},
+    title     = {FIBA: Frequency-Injection Based Backdoor Attack in Medical Image Analysis},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {20876-20885}
+}
 
 ### Acknowledgement
 
