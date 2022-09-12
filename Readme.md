@@ -50,6 +50,11 @@ This is an official implementation of the CVPR 2022 Paper **[FIBA: Frequency-Inj
 
 * test_model: The path of test model
 
+## ASR for segmentation and detection tasks
+
+![image](https://github.com/HazardFY/FIBA/blob/main/txt/ASR_1.png)
+![image](https://github.com/HazardFY/FIBA/blob/main/txt/ASR_2.png)
+
 ## Citation
 
 If you find this repo useful for your research, please consider citing our paper
